@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		283CC5B21D864F7A001B5B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 283CC5B11D864F7A001B5B5E /* main.m */; };
+		283CC5B51D864F7A001B5B5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 283CC5B41D864F7A001B5B5E /* AppDelegate.m */; };
+		283CC5B81D864F7A001B5B5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 283CC5B71D864F7A001B5B5E /* ViewController.m */; };
+		283CC5BB1D864F7A001B5B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283CC5B91D864F7A001B5B5E /* Main.storyboard */; };
+		283CC5BD1D864F7A001B5B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283CC5BC1D864F7A001B5B5E /* Assets.xcassets */; };
+		283CC5C01D864F7A001B5B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283CC5BE1D864F7A001B5B5E /* LaunchScreen.storyboard */; };
+		283CC5CB1D864F7A001B5B5E /* ForwardAlertDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 283CC5CA1D864F7A001B5B5E /* ForwardAlertDemoTests.m */; };
+		283CC5D61D864F7A001B5B5E /* ForwardAlertDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 283CC5D51D864F7A001B5B5E /* ForwardAlertDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		283CC5C71D864F7A001B5B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 283CC5A51D864F7A001B5B5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 283CC5AC1D864F7A001B5B5E;
+			remoteInfo = ForwardAlertDemo;
+		};
+		283CC5D21D864F7A001B5B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 283CC5A51D864F7A001B5B5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 283CC5AC1D864F7A001B5B5E;
+			remoteInfo = ForwardAlertDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		283CC5AD1D864F7A001B5B5E /* ForwardAlertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForwardAlertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		283CC5B11D864F7A001B5B5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		283CC5B31D864F7A001B5B5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		283CC5B41D864F7A001B5B5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		283CC5B61D864F7A001B5B5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		283CC5B71D864F7A001B5B5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		283CC5BA1D864F7A001B5B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		283CC5BC1D864F7A001B5B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		283CC5BF1D864F7A001B5B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		283CC5C11D864F7A001B5B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283CC5C61D864F7A001B5B5E /* ForwardAlertDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForwardAlertDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		283CC5CA1D864F7A001B5B5E /* ForwardAlertDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForwardAlertDemoTests.m; sourceTree = "<group>"; };
+		283CC5CC1D864F7A001B5B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283CC5D11D864F7A001B5B5E /* ForwardAlertDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForwardAlertDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		283CC5D51D864F7A001B5B5E /* ForwardAlertDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForwardAlertDemoUITests.m; sourceTree = "<group>"; };
+		283CC5D71D864F7A001B5B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		283CC5AA1D864F7A001B5B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283CC5C31D864F7A001B5B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283CC5CE1D864F7A001B5B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283CC5A41D864F7A001B5B5E = {
+			isa = PBXGroup;
+			children = (
+				283CC5AF1D864F7A001B5B5E /* ForwardAlertDemo */,
+				283CC5C91D864F7A001B5B5E /* ForwardAlertDemoTests */,
+				283CC5D41D864F7A001B5B5E /* ForwardAlertDemoUITests */,
+				283CC5AE1D864F7A001B5B5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		283CC5AE1D864F7A001B5B5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				283CC5AD1D864F7A001B5B5E /* ForwardAlertDemo.app */,
+				283CC5C61D864F7A001B5B5E /* ForwardAlertDemoTests.xctest */,
+				283CC5D11D864F7A001B5B5E /* ForwardAlertDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		283CC5AF1D864F7A001B5B5E /* ForwardAlertDemo */ = {
+			isa = PBXGroup;
+			children = (
+				283CC5B31D864F7A001B5B5E /* AppDelegate.h */,
+				283CC5B41D864F7A001B5B5E /* AppDelegate.m */,
+				283CC5B61D864F7A001B5B5E /* ViewController.h */,
+				283CC5B71D864F7A001B5B5E /* ViewController.m */,
+				283CC5B91D864F7A001B5B5E /* Main.storyboard */,
+				283CC5BC1D864F7A001B5B5E /* Assets.xcassets */,
+				283CC5BE1D864F7A001B5B5E /* LaunchScreen.storyboard */,
+				283CC5C11D864F7A001B5B5E /* Info.plist */,
+				283CC5B01D864F7A001B5B5E /* Supporting Files */,
+			);
+			path = ForwardAlertDemo;
+			sourceTree = "<group>";
+		};
+		283CC5B01D864F7A001B5B5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				283CC5B11D864F7A001B5B5E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		283CC5C91D864F7A001B5B5E /* ForwardAlertDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				283CC5CA1D864F7A001B5B5E /* ForwardAlertDemoTests.m */,
+				283CC5CC1D864F7A001B5B5E /* Info.plist */,
+			);
+			path = ForwardAlertDemoTests;
+			sourceTree = "<group>";
+		};
+		283CC5D41D864F7A001B5B5E /* ForwardAlertDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				283CC5D51D864F7A001B5B5E /* ForwardAlertDemoUITests.m */,
+				283CC5D71D864F7A001B5B5E /* Info.plist */,
+			);
+			path = ForwardAlertDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		283CC5AC1D864F7A001B5B5E /* ForwardAlertDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283CC5DA1D864F7A001B5B5E /* Build configuration list for PBXNativeTarget "ForwardAlertDemo" */;
+			buildPhases = (
+				283CC5A91D864F7A001B5B5E /* Sources */,
+				283CC5AA1D864F7A001B5B5E /* Frameworks */,
+				283CC5AB1D864F7A001B5B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForwardAlertDemo;
+			productName = ForwardAlertDemo;
+			productReference = 283CC5AD1D864F7A001B5B5E /* ForwardAlertDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		283CC5C51D864F7A001B5B5E /* ForwardAlertDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283CC5DD1D864F7A001B5B5E /* Build configuration list for PBXNativeTarget "ForwardAlertDemoTests" */;
+			buildPhases = (
+				283CC5C21D864F7A001B5B5E /* Sources */,
+				283CC5C31D864F7A001B5B5E /* Frameworks */,
+				283CC5C41D864F7A001B5B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				283CC5C81D864F7A001B5B5E /* PBXTargetDependency */,
+			);
+			name = ForwardAlertDemoTests;
+			productName = ForwardAlertDemoTests;
+			productReference = 283CC5C61D864F7A001B5B5E /* ForwardAlertDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		283CC5D01D864F7A001B5B5E /* ForwardAlertDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283CC5E01D864F7A001B5B5E /* Build configuration list for PBXNativeTarget "ForwardAlertDemoUITests" */;
+			buildPhases = (
+				283CC5CD1D864F7A001B5B5E /* Sources */,
+				283CC5CE1D864F7A001B5B5E /* Frameworks */,
+				283CC5CF1D864F7A001B5B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				283CC5D31D864F7A001B5B5E /* PBXTargetDependency */,
+			);
+			name = ForwardAlertDemoUITests;
+			productName = ForwardAlertDemoUITests;
+			productReference = 283CC5D11D864F7A001B5B5E /* ForwardAlertDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		283CC5A51D864F7A001B5B5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lester-iOS开发:98787555";
+				TargetAttributes = {
+					283CC5AC1D864F7A001B5B5E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					283CC5C51D864F7A001B5B5E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 283CC5AC1D864F7A001B5B5E;
+					};
+					283CC5D01D864F7A001B5B5E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 283CC5AC1D864F7A001B5B5E;
+					};
+				};
+			};
+			buildConfigurationList = 283CC5A81D864F7A001B5B5E /* Build configuration list for PBXProject "ForwardAlertDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 283CC5A41D864F7A001B5B5E;
+			productRefGroup = 283CC5AE1D864F7A001B5B5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				283CC5AC1D864F7A001B5B5E /* ForwardAlertDemo */,
+				283CC5C51D864F7A001B5B5E /* ForwardAlertDemoTests */,
+				283CC5D01D864F7A001B5B5E /* ForwardAlertDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		283CC5AB1D864F7A001B5B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283CC5C01D864F7A001B5B5E /* LaunchScreen.storyboard in Resources */,
+				283CC5BD1D864F7A001B5B5E /* Assets.xcassets in Resources */,
+				283CC5BB1D864F7A001B5B5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283CC5C41D864F7A001B5B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283CC5CF1D864F7A001B5B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		283CC5A91D864F7A001B5B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283CC5B81D864F7A001B5B5E /* ViewController.m in Sources */,
+				283CC5B51D864F7A001B5B5E /* AppDelegate.m in Sources */,
+				283CC5B21D864F7A001B5B5E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283CC5C21D864F7A001B5B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283CC5CB1D864F7A001B5B5E /* ForwardAlertDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283CC5CD1D864F7A001B5B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283CC5D61D864F7A001B5B5E /* ForwardAlertDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		283CC5C81D864F7A001B5B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 283CC5AC1D864F7A001B5B5E /* ForwardAlertDemo */;
+			targetProxy = 283CC5C71D864F7A001B5B5E /* PBXContainerItemProxy */;
+		};
+		283CC5D31D864F7A001B5B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 283CC5AC1D864F7A001B5B5E /* ForwardAlertDemo */;
+			targetProxy = 283CC5D21D864F7A001B5B5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		283CC5B91D864F7A001B5B5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				283CC5BA1D864F7A001B5B5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		283CC5BE1D864F7A001B5B5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				283CC5BF1D864F7A001B5B5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		283CC5D81D864F7A001B5B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		283CC5D91D864F7A001B5B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		283CC5DB1D864F7A001B5B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForwardAlertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lester-lz-163.com.ForwardAlertDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		283CC5DC1D864F7A001B5B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForwardAlertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lester-lz-163.com.ForwardAlertDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		283CC5DE1D864F7A001B5B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ForwardAlertDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lester-lz-163.com.ForwardAlertDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForwardAlertDemo.app/ForwardAlertDemo";
+			};
+			name = Debug;
+		};
+		283CC5DF1D864F7A001B5B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ForwardAlertDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lester-lz-163.com.ForwardAlertDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForwardAlertDemo.app/ForwardAlertDemo";
+			};
+			name = Release;
+		};
+		283CC5E11D864F7A001B5B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ForwardAlertDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lester-lz-163.com.ForwardAlertDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ForwardAlertDemo;
+			};
+			name = Debug;
+		};
+		283CC5E21D864F7A001B5B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ForwardAlertDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lester-lz-163.com.ForwardAlertDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ForwardAlertDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		283CC5A81D864F7A001B5B5E /* Build configuration list for PBXProject "ForwardAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283CC5D81D864F7A001B5B5E /* Debug */,
+				283CC5D91D864F7A001B5B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		283CC5DA1D864F7A001B5B5E /* Build configuration list for PBXNativeTarget "ForwardAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283CC5DB1D864F7A001B5B5E /* Debug */,
+				283CC5DC1D864F7A001B5B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		283CC5DD1D864F7A001B5B5E /* Build configuration list for PBXNativeTarget "ForwardAlertDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283CC5DE1D864F7A001B5B5E /* Debug */,
+				283CC5DF1D864F7A001B5B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		283CC5E01D864F7A001B5B5E /* Build configuration list for PBXNativeTarget "ForwardAlertDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283CC5E11D864F7A001B5B5E /* Debug */,
+				283CC5E21D864F7A001B5B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 283CC5A51D864F7A001B5B5E /* Project object */;
+}

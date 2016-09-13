@@ -15,6 +15,13 @@
 		283CC5C01D864F7A001B5B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283CC5BE1D864F7A001B5B5E /* LaunchScreen.storyboard */; };
 		283CC5CB1D864F7A001B5B5E /* ForwardAlertDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 283CC5CA1D864F7A001B5B5E /* ForwardAlertDemoTests.m */; };
 		283CC5D61D864F7A001B5B5E /* ForwardAlertDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 283CC5D51D864F7A001B5B5E /* ForwardAlertDemoUITests.m */; };
+		283CC5E61D864FFF001B5B5E /* ForwardAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 283CC5E51D864FFF001B5B5E /* ForwardAlert.m */; };
+		283CC5EF1D86920C001B5B5E /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 283CC5EE1D86920C001B5B5E /* UIViewExt.m */; };
+		283CC5FD1D86A295001B5B5E /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 283CC5F91D86A295001B5B5E /* FLAnimatedImage.m */; };
+		283CC5FE1D86A295001B5B5E /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 283CC5FB1D86A295001B5B5E /* FLAnimatedImageView.m */; };
+		283CC6051D86A694001B5B5E /* testImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 283CC6041D86A694001B5B5E /* testImage.jpg */; };
+		283CC6091D86A958001B5B5E /* testgif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 283CC6081D86A958001B5B5E /* testgif.gif */; };
+		283CC60B1D86AA46001B5B5E /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 283CC60A1D86AA46001B5B5E /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,17 @@
 		283CC5D11D864F7A001B5B5E /* ForwardAlertDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForwardAlertDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		283CC5D51D864F7A001B5B5E /* ForwardAlertDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForwardAlertDemoUITests.m; sourceTree = "<group>"; };
 		283CC5D71D864F7A001B5B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283CC5E41D864FFF001B5B5E /* ForwardAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardAlert.h; sourceTree = "<group>"; };
+		283CC5E51D864FFF001B5B5E /* ForwardAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForwardAlert.m; sourceTree = "<group>"; };
+		283CC5ED1D86920C001B5B5E /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		283CC5EE1D86920C001B5B5E /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		283CC5F81D86A295001B5B5E /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		283CC5F91D86A295001B5B5E /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		283CC5FA1D86A295001B5B5E /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		283CC5FB1D86A295001B5B5E /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		283CC6041D86A694001B5B5E /* testImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testImage.jpg; sourceTree = "<group>"; };
+		283CC6081D86A958001B5B5E /* testgif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = testgif.gif; sourceTree = "<group>"; };
+		283CC60A1D86AA46001B5B5E /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,9 @@
 		283CC5AF1D864F7A001B5B5E /* ForwardAlertDemo */ = {
 			isa = PBXGroup;
 			children = (
+				283CC5F71D86A295001B5B5E /* FLAnimatedImage */,
+				283CC5EB1D86875F001B5B5E /* testImages */,
+				283CC5E31D864FD5001B5B5E /* ForwardAlert */,
 				283CC5B31D864F7A001B5B5E /* AppDelegate.h */,
 				283CC5B41D864F7A001B5B5E /* AppDelegate.m */,
 				283CC5B61D864F7A001B5B5E /* ViewController.h */,
@@ -138,6 +159,46 @@
 				283CC5D71D864F7A001B5B5E /* Info.plist */,
 			);
 			path = ForwardAlertDemoUITests;
+			sourceTree = "<group>";
+		};
+		283CC5E31D864FD5001B5B5E /* ForwardAlert */ = {
+			isa = PBXGroup;
+			children = (
+				283CC5EC1D86920C001B5B5E /* UIViewExt */,
+				283CC5E41D864FFF001B5B5E /* ForwardAlert.h */,
+				283CC5E51D864FFF001B5B5E /* ForwardAlert.m */,
+			);
+			path = ForwardAlert;
+			sourceTree = "<group>";
+		};
+		283CC5EB1D86875F001B5B5E /* testImages */ = {
+			isa = PBXGroup;
+			children = (
+				283CC6081D86A958001B5B5E /* testgif.gif */,
+				283CC6041D86A694001B5B5E /* testImage.jpg */,
+				283CC60A1D86AA46001B5B5E /* test.png */,
+			);
+			name = testImages;
+			sourceTree = "<group>";
+		};
+		283CC5EC1D86920C001B5B5E /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				283CC5ED1D86920C001B5B5E /* UIViewExt.h */,
+				283CC5EE1D86920C001B5B5E /* UIViewExt.m */,
+			);
+			path = UIViewExt;
+			sourceTree = "<group>";
+		};
+		283CC5F71D86A295001B5B5E /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				283CC5F81D86A295001B5B5E /* FLAnimatedImage.h */,
+				283CC5F91D86A295001B5B5E /* FLAnimatedImage.m */,
+				283CC5FA1D86A295001B5B5E /* FLAnimatedImageView.h */,
+				283CC5FB1D86A295001B5B5E /* FLAnimatedImageView.m */,
+			);
+			path = FLAnimatedImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +268,7 @@
 				TargetAttributes = {
 					283CC5AC1D864F7A001B5B5E = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6A88362S5N;
 					};
 					283CC5C51D864F7A001B5B5E = {
 						CreatedOnToolsVersion = 7.3;
@@ -246,6 +308,9 @@
 				283CC5C01D864F7A001B5B5E /* LaunchScreen.storyboard in Resources */,
 				283CC5BD1D864F7A001B5B5E /* Assets.xcassets in Resources */,
 				283CC5BB1D864F7A001B5B5E /* Main.storyboard in Resources */,
+				283CC6051D86A694001B5B5E /* testImage.jpg in Resources */,
+				283CC6091D86A958001B5B5E /* testgif.gif in Resources */,
+				283CC60B1D86AA46001B5B5E /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +335,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283CC5FE1D86A295001B5B5E /* FLAnimatedImageView.m in Sources */,
 				283CC5B81D864F7A001B5B5E /* ViewController.m in Sources */,
 				283CC5B51D864F7A001B5B5E /* AppDelegate.m in Sources */,
+				283CC5FD1D86A295001B5B5E /* FLAnimatedImage.m in Sources */,
+				283CC5EF1D86920C001B5B5E /* UIViewExt.m in Sources */,
+				283CC5E61D864FFF001B5B5E /* ForwardAlert.m in Sources */,
 				283CC5B21D864F7A001B5B5E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,10 +484,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ForwardAlertDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lester-lz-163.com.ForwardAlertDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +498,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ForwardAlertDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Lester-lz-163.com.ForwardAlertDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +573,7 @@
 				283CC5DC1D864F7A001B5B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		283CC5DD1D864F7A001B5B5E /* Build configuration list for PBXNativeTarget "ForwardAlertDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +582,7 @@
 				283CC5DF1D864F7A001B5B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		283CC5E01D864F7A001B5B5E /* Build configuration list for PBXNativeTarget "ForwardAlertDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +591,7 @@
 				283CC5E21D864F7A001B5B5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
